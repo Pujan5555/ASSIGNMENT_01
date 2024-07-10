@@ -184,7 +184,8 @@ body{
     margin-top: 4rem;
     gap: 2.5rem;
 }
-.skill-cards div:nth-child(1), .skill-cards div:nth-child(3){
+/* three skills cards */
+.skill-cards div:nth-child(1){
     text-align: left;
     display: flex;
     padding: 2rem;
@@ -194,7 +195,6 @@ body{
     border-radius: 0.4rem;
     background: rgba(255, 76, 30, 0.05);
 }
-/* using to access the second div in the skill-cards */
 .skill-cards div:nth-child(2){ 
     text-align: left;
     display: flex;
@@ -204,6 +204,16 @@ body{
     justify-content: space-around;
     border-radius: 0.4rem;
     background: rgba(0, 76, 232, 0.05);
+}
+.skill-cards div:nth-child(3){
+    text-align: left;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-radius: 0.4rem;
+    background: rgba(255, 223, 0, 0.05);;
 }
 .skill-cards div img{
     margin: 0.8rem;
