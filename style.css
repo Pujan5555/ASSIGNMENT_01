@@ -262,6 +262,7 @@ body{
 .feedback-form input[type="submit"]{
     width: 10%;
     height: 40px;
+    font-size: 1rem;
     border-radius: 0.4rem;
     padding: 0.5rem;
     margin: 1.2rem 0.2rem 1.2rem 0.2rem;
