@@ -1,0 +1,278 @@
+/* bringing all the fonts required */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+.azeret-mono-regular{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+/* common styles begins */
+.common-h1{
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0.8rem;
+}
+.text{
+    color: #0D1321;
+    margin: 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.common-h2{
+    color: #0D1321;
+    font-weight: 800;
+    margin: 0.8rem;
+    text-align: center;
+}
+.common-h3{
+    color: #0D1321;
+    font-weight: 600;
+    margin: 0.8rem;
+}
+.square-btn{
+    color: #0D1321;
+    border: 1px solid #0D1321;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 1rem;
+    padding: 0.4rem 0.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 0.8rem;
+}
+.btn{
+    color: #0D1321;
+    border: 1px solid #0D1321;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 1rem;
+    padding: 0.4rem 0.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.link-underline{
+    color: #0D1321;
+    font-weight: 600;
+    margin: 0.8rem;
+}
+.link-underline:visited{
+    color: #0D1321;
+}
+.white{
+    color: #fff;
+}
+/* common styles ends */
+
+
+/* styling nav bar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem 2rem 7rem;
+}
+.navbar>a{
+    color: #0D1321;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.nav-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-image: url("Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav-section a>button{
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    background-color: #0D1321;
+    border: 2px solid #0D1321;
+    border-radius: 0.6rem;
+}
+.nav-section a>button:hover{
+    background-color: white;
+    color: #0D1321;
+}
+/* main starts here */
+.main-section{
+    width: 70%;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 2rem 5rem 2rem 5rem;
+    background-color: rgba(13, 19, 33, 0.02);
+    text-align: center;
+    border-radius: 0.3rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+    text-align: left;
+    border-radius: 0.4rem;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.second{
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    gap: 2rem;
+    border-radius: 0.4rem;
+    text-align: left;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);;
+}
+.third{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+    text-align: left;
+    border-radius: 0.4rem;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+/* video section starts here */
+.video-section{
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+.video-section div{
+    width: 100%;
+    margin-top: 4rem;
+    border: 2px solid grey;
+    border-radius: 0.8rem;
+}
+.video-section div iframe{
+    width: 95%;
+    height: 500px;
+    margin: 1rem;
+    border-radius: 0.8rem;
+}
+
+/* currebt target */
+.current-target{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+}
+.skill-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 2.5rem;
+}
+.skill-cards div:nth-child(1), .skill-cards div:nth-child(3){
+    text-align: left;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-radius: 0.4rem;
+    background: rgba(255, 76, 30, 0.05);
+}
+/* using to access the second div in the skill-cards */
+.skill-cards div:nth-child(2){ 
+    text-align: left;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-radius: 0.4rem;
+    background: rgba(0, 76, 232, 0.05);
+}
+.skill-cards div img{
+    margin: 0.8rem;
+}
+
+/* my next target styles */
+.next-target{
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+}
+.next-target-items{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 3rem;
+    border: 2px solid rgba(128, 128, 128, 0.4);
+    padding: 2rem;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+}
+/* foooter section starts */
+.support-section{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 2.5rem 0 2.5rem 0;
+    border-radius: 0.8rem;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.5)), url("handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.feedback-form input[type="text"]{
+    width: 40%;
+    height: 40px;
+    border-radius: 0.4rem;
+    padding-left: 0.8rem;
+    border: none;
+    outline: none;
+    margin: 1.2rem 0.2rem 1.2rem 0.2rem;
+}
+.feedback-form input[type="submit"]{
+    width: 10%;
+    height: 40px;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    margin: 1.2rem 0.2rem 1.2rem 0.2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* social footer */
+
+.social-footer{
+    width: 100%;
+    margin-top: 3rem;
+    padding: 1.5rem 0 1.5rem 0;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.social-footer>div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#social-icons a img{
+    margin: 0.2rem;
+}
